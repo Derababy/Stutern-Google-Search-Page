@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Search</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+</head>
+<body>
+    <main>
+        <header>
+            <div>
+                <a href="#"><img src="images/logo.png" alt="" width="13%"></a>
+                <div id="search">
+                    <input type="search" name="search" placeholder="cristiano ronaldo">
+                    <a href="#"><img src="images/cancel.png" alt="" class="cancel"/></a>
+                    <a href="#"><img src="images/mic.png" alt="" class="mic"></a>
+                    <a href="#"><img src="images/camera.svg" alt="" class="cam"></a>
+                    <a href="#"><img src="images/glass.png" alt="" class="glass"></a>                
+                    <a href="#"><img src="images/settings.png" alt="" class="settings"></a>
+                    <a href="#"><img src="images/apps.png" alt="" class="apps"></a>
+                    <a href="#"><img src="images/profile.jpg" alt="" class="profile-picture"></a>
+                </div>
+            </div>
+            <div class="header-below">
+                <a href="#"><img src="images/all.png" alt="" class="all-icon"><span class="all-text">All</span></a>
+                <a href="#"><img src="images/news.png" alt="" class="news-icon"><span class="header-below-text">News</span></a>
+                <a href="#"><img src="images/images.png" alt="" class="header-below-icons"><span class="header-below-text">Images</span></a>
+                <a href="#"><img src="images/videos.png" alt="" class="header-below-icons"><span class="header-below-text">Videos</span></a>
+                <a href="#" style="margin-left: -4px;"><img src="images/more.png" alt="" class="news-icon"><span style="font-size: 14px; position: relative; bottom: 4px; right: 10px;">More</span></a>
+                <button><a href="#">Tools</a></button>
+            </div>   
+            <div id="results">
+                <p style="font-size: 14px;">About 321,000,000 results (0.67 seconds)</p>
+            </div> 
+            <div id="heading">
+                <img src="images/pic_1.jpg" alt="" class="picture">
+                <div>
+                    <h1 style="font-weight: 300; font-size: 28px;">Cristiano Ronaldo</h1>
+                    <span>Portuguese footballer</span> <a href="#"><img src="images/more-sharp.png" alt="" style="width: 8%; position: relative; top: 4px;"></a>
+                </div>
+            </div>
+            <div id="heading-button">
+                <button style="border: 1px solid #FFFFFF;"><a href="#">Overview</a></button>
+                <button><a href="#">News</a></button>
+                <button><a href="#">Stats</a></button>
+                <button><a href="#">Videos</a></button>
+            </div>
+        </header>
+        <section class="flex-headlines">
+            <section id="main-section">
+                <div id="images-row">
+                    <a href="#"><img src="images/pic_2.jpg" alt="" style="width: 176px; height: 132px; border-top-left-radius: 10px; border-bottom-left-radius: 10px;"></a>
+                    <a href="#"><img src="images/pic_3.jpg" alt="" style="width: 85px; height: 132px;"></a>
+                    <a href="#"><img src="images/pic_4.jpg" alt="" style="width: 104px; height: 132px;"></a>
+                    <a href="#"><img src="images/pic_5.jpg" alt="" style="width: 132px; height: 132px;"></a>
+                    <a href="#"><img src="images/pic_6.jpg" alt="" style="width: 152px; height: 132px; border-top-right-radius: 10px; border-bottom-right-radius: 10px;"></a>
+                    <a href="#" class="more-images"><img src="images/more-images.png" alt="" width="20px" height="20px"><span>More images</span></a>
+                </div>
+                <div id="top-stories">
+                    Top stories <br>
+                    <a href="#" style="color: #a8a8aa;">News about Cristiano Ronaldo<img src="images/chevron-forward.png" alt="" style="position: relative; top: 6px;"></a> 
+                </div>
+                <div class="news-headlines">
+                    <div class="news-headlines-left">
+                        <img src="images/pic_7.jpg" alt="" style="border-radius: 10px;"><br>
+                        <a href="#" style="padding-bottom: 7px;"><img src="images/marca.png" alt="" class="news-logo"> <span class="news-span">MARCA</span></a> <br>
+                        <a href="#">Who is Mohammed bin Salman, the Saudi Arabia crown prince behind Cristiano...</a><br>
+                        <span class="time-span">7 hours ago</span>
+                    </div>
+                    <div style="padding-left: 11px;">
+                        <div class="flex-headlines">
+                            <div>
+                                <a href="#" style="padding-bottom: 7px;"><img src="images/daily-express.png" alt="" class="news-logo"> <span class="news-span">Daily Express</span></a> <br>
+                                <a href="#">Cristiano Ronaldo's girlfriend has strict Saudi rules to follow with ban on public...</a> <br>
+                                <span class="time-span">1 day ago</span>
+                            </div>
+                            <div>
+                                <img src="images/pic_8.jpg" alt="" class="other-image">
+                                <img src="images/play-video.png" alt="" class="play-video">
+                            </div>                   
+                        </div>
+                        <div class="flex-headlines headlines-second">
+                            <div>
+                                <a href="" style="padding-bottom: 7px;"><img src="images/punch.png" alt="" class="news-logo"> <span class="news-span">Punch Newspaper</span></a> <br>
+                                <a href="#" class="pad-news">Ronaldo: DStv not broadcasting Saudi league
+                                    </a> <br>
+                                <span class="time-span">3 hours ago</span>
+                            </div>
+                            <div>
+                                <img src="images/pic_9.jpg" alt="" class="other-image">
+                            </div>                   
+                        </div>
+                    </div>
+                </div>
+                <div id="mid-stories">
+                    <a href="#">News about Cristiano Ronaldo, Man Utd</a> 
+                </div>
+                <div class="news-headlines">
+                    <div class="flex-headlines">
+                        <div>
+                            <a href="#" style="padding-bottom: 7px;"><img src="images/manchester.png" alt="" class="news-logo"> <span class="news-span">Manchester Evening News</span></a> <br>
+                            <a href="#">Piers Morgan slams claim Cristiano Ronaldo is 'finished' following Manchester Unite...</a> <br>
+                            <span class="time-span">23 hours ago</span>
+                        </div>
+                        <div>
+                            <img src="images/pic_10.jpg" alt="" class="shift-other-image">     
+                        </div>                                    
+                    </div>
+                    <div class="flex-headlines shift-headlines">
+                        <div>
+                            <a href="#" style="padding-bottom: 7px;"><img src="images/goal.png" alt="" class="news-logo"> <span class="news-span">Goal.com</span></a> <br>
+                            <a href="#">'Ronaldo was ticking time bomb ready to explode'- Man Utd exit was inevitabl...</a> <br>
+                            <span class="time-span">2 days ago</span>
+                        </div>
+                        <div>
+                            <img src="images/pic_11.jpg" alt="" class="other-image">
+                        </div>                                    
+                    </div>
+                </div>
+                <div id="also-stories">
+                    <a href="#" style="color: #a8a8aa;">Also in the news</a> 
+                </div>        
+                <div class="news-headlines">
+                    <div class="flex-headlines shift-headlines-again">
+                        <div>
+                            <a href="#" style="padding-bottom: 7px;"><img src="images/daily-mail.png" alt="" class="news-logo"> <span class="news-span">Daily Mail</span></a> <br>
+                            <a href="#" class="pad-news">Cristiano Ronaldo's &#163;18M supercar collection</a> <br>
+                            <span class="time-span">3 hours ago</span>
+                        </div>
+                        <div>
+                            <img src="images/pic_12.jpg" alt="" class="shift-image">     
+                        </div>                                    
+                    </div>
+                    <div class="flex-headlines headlines-right">
+                        <div>
+                            <a href="#" style="padding-bottom: 7px;"><img src="images/espana.png" alt="" class="news-logo"> <span class="news-span">Football Espana</span></a> <br>
+                            <a href="#">Karim Benzema clarifies Cristiano Ronaldo relationship following photo...</a> <br>
+                            <span class="time-span">1 day ago</span>
+                        </div>
+                        <div>
+                            <img src="images/pic_13.jpg" alt="" class="other-image-again">
+                        </div>                                    
+                    </div>
+                </div>
+                <a href="#">
+                    <div class="more-news">
+                        <span>More news <img src="/images/more-news.png" alt="" class="more"></span>
+                    </div>
+                </a>
+            </section>   
+            <section id="side-section">
+                <div style="border-bottom: 1px solid #3e3f3f; padding-bottom: 10px;">
+                    <h3 style="font-weight: 300;">About</h3>
+                    <div>
+                        <button class="ronaldo-button"><a href="#">
+                            <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="web-icon">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 
+                            0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 
+                            0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" fill="#4487F6"></path></svg> 
+                            cristianoronaldo.com</a>
+                        </button>
+                    </div>
+                    <div id="side-section-tags">
+                        <p>Cristiano Ronaldo dos Santos Aveiro GOIH ComM is a Portuguese professional footballer who plays as a forward for 
+                            Saudi Professional League club Al Nassr and captains the Portugal national team. <a href="#">Wikipedia</a></p>  
+                        <p class="about-section"><span>Born:</span> 5 February 1985 (age 37 years),<a href="#"> Hospital Dr. Nélio Mendonça, Funchal, Portugal</a></p>
+                        <p class="about-section"><span>Children:</span> <a href="#">Cristiano Ronaldo Jr., MORE</a></p>
+                        <p class="about-section"><span>Current teams:</span><a href="#"> Portugal national football team</a> (#7 / Forward), <a href="#">Al-Nassr FC</a> (#7 / Forward)</p>
+                        <p class="about-section"><span>Career start:</span> 1992</p>
+                        <p class="about-section"><span>Height:</span> 1.87 m</p>
+                        <p class="about-section"><span>Salary:</span> 62 million GBP (2023)</p>
+                        <p class="about-section"><span>Awards:</span><a href="#"> European Golden Shoe</a>, <a href="#">Ballon d'Or Dream Team</a>, <a href="#">MORE</a></p>
+                        <p class="about-section"><span>Partner:</span><a href="#"> Georgina Rodriguez</a> (2016-)</p>
+                    </div>
+                    <div class="flex-headlines about-section">
+                        <button class="ronaldo-button"><a href="#">
+                            <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="claim-icon">
+                            <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z" fill="#4487F6"></path></svg> 
+                            Claim this knowledge panel</a>
+                        </button>
+                        <a href="#" class="feedback">Feedback</a>
+                    </div>
+                </div>
+                <div class="profile-section">
+                    <h3 style="font-weight: 300;">Profiles</h3>
+                    <div class="flex-headlines profile-section-social">
+                        <a href="#"><img src="images/instagram.png" alt="" style="margin-left: 12px;"> <br> <span>Instagram</span></a>
+                        <a href="#"><img src="images/twitter.png" alt="" style="margin-left: 5px;"> <br> <span>Twitter</span></a>
+                        <a href="#"><img src="images/facebook.png" alt="" style="margin-left: 12px;"> <br> <span>Facebook</span></a>
+                        <a href="#"><img src="images/youtube.png" alt="" style="margin-left: 10px;"> <br> <span>Youtube</span></a>     
+                    </div>
+                </div>
+                <div class="profile-sections">  
+                    <a href="#"><h3 style="font-weight: 300; color: #FFFFFF;">Stats</h3></a>
+                    <a><img src="images/chevron.png" alt="" class="border-image"></a>
+                    <a href="#" class="portugal">Portugal</a>
+                    <div class="table">
+                        <span>League</span>
+                        <span>Matches</span>
+                        <span>Goals</span>
+                    </div>
+                    <div class="table-content">
+                        <a href="#">World Cup <br><span style="color: #969BA1; font-size: 12px;">2022</span> </a>
+                        <span>5</span>
+                        <span>1</span>
+                    </div> 
+                    <div class="table-content">
+                        <a href="#">World Cup Qualifiers <br><span style="color: #969BA1; font-size: 12px;">2021-22</span> </a>
+                        <span>9</span>
+                        <span>6</span>
+                    </div>
+                    <div class="table-content">
+                        <a href="#">UEFA EURO <br><span style="color: #969BA1; font-size: 12px;">2021</span> </a>
+                        <span>4</span>
+                        <span>5</span>
+                    </div>
+                    <div class="table-content">
+                        <a href="#">UEFA EURO Qualifiers <br><span style="color: #969BA1; font-size: 12px;">2019-20</span> </a>
+                        <span>8</span>
+                        <span>11</span>
+                    </div>
+                    <div class="table-content" style="margin-bottom: 15px;">
+                        <a href="#">FIFA Confederations <br>Cup<br><span style="color: #969BA1; font-size: 12px;">2017</span> </a>
+                        <span>4</span>
+                        <span>2</span>
+                    </div>
+                </div>
+                <div class="more-images-for-search">
+                    <h3 style="font-weight: 300; color: #FFFFFF;">People also search for</h3>
+                    <div class="flex-headlines space-images">
+                        <div>
+                            <a href="#"><img src="images/nacho.jpg" alt="" class="images-others">
+                            <span>Alejandro Garnacho <br>Trending</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#"><img src="images/marcus.jpg" alt="" class="images-others">
+                            <span>Marcus Rashford <br>Trending</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#"><img src="images/messi.jpg" alt="" class="images-others">
+                            <span>Lionel Messi</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#"><img src="images/wife.jpg" alt="" class="images-others">
+                            <span>Georgina Rodrig...</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                  
+                
+
+            </section>
+
+        </section>
+
+
+
+
+
+
+
+                <!--
+        
+    <div class="cards">
+        <div class="card">
+            <a href=""><img src="images/oguta-lake.jpg" alt="oguta_lake" class="card_image" width="320" height="200"/></a>
+            <div class="content">
+                <p><h3><b>Oguta Lake<br>Oguta</b></h3></p>
+                <p>&#8358 150,000</p>
+                <p><a href="lake.html"><button>Visit</button></a></p>
+            </div>
+        </div>
+        <div class="card">
+            <a href=""><img src="images/palms.jpeg" alt="ada_palms" class="card_image" width="320" height="200"/></a>
+            <div class="content">
+                <p><h3><b>Imo Palm Plantation<br>Ohaji/Egbema</b></h3></p>
+                <p>&#8358 80,000</p>
+                <p><a href="palm.html"><button>Visit</button></a></p>
+            </div>
+        </div>
+    </div>
+    
+    .cards{
+        margin: 0 auto;
+        max-width: 1200px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+        font-family: sans-serif;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 20px;
+    }
+    
+    .card_image{
+        width: 100%;
+        display: block;
+        border-radius: 10px;
+     }
+    
+    .card{
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transform-origin: 0.3s;
+        border-radius: 10px;
+    }
+    
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.content{
+    padding: -5px;
+    line-height: 1.5;
+    font-size: 0.9em;
+    text-align: center;
+    background-color: #f2f2f2;
+    margin-bottom: 10px;
+}
+     -->
+
+
+</body>
+</html>
